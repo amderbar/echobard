@@ -1,0 +1,14 @@
+[package]
+name = "echobard-ext"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+godot = { version = "0.5.5", features = ["experimental-threads"] }
+
+[lints]
+# gdext のマクロ展開でフルパス指定コードが生成されるため禁止に出来ない
+clippy.absolute_paths = "allow"

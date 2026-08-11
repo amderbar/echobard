@@ -1,0 +1,6 @@
+[workspace]
+resolver = "3"
+members = ["echobard-core", "echobard-ext"]
+
+[workspace.lints.clippy]
+absolute_paths = "deny"
