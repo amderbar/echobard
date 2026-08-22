@@ -4,11 +4,7 @@ compatibility_minimum = 4.1
 reloadable = true
 
 [libraries]
-linux.debug.x86_64 =     "res://../target/debug/libechobard_ext.so"
-linux.release.x86_64 =   "res://../target/release/libechobard_ext.so"
-windows.debug.x86_64 =   "res://../target/debug/echobard_ext.dll"
-windows.release.x86_64 = "res://../target/release/echobard_ext.dll"
-macos.debug =            "res://../target/debug/libechobard_ext.dylib"
-macos.release =          "res://../target/release/libechobard_ext.dylib"
-macos.debug.arm64 =      "res://../target/debug/libechobard_ext.dylib"
-macos.release.arm64 =    "res://../target/release/libechobard_ext.dylib"
+linux.x86_64 =     "res://../target/debug/libechobard_ext.so"
+windows.x86_64 =   "res://../target/debug/echobard_ext.dll"
+macos =            "res://../target/debug/libechobard_ext.dylib"
+macos.arm64 =      "res://../target/debug/libechobard_ext.dylib"
